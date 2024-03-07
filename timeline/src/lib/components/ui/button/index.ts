@@ -7,7 +7,7 @@ const buttonVariants = tv({
 	variants: {
 		variant: {
 			default:
-				'bg-white border border-[#4d4d4d] text-[#4d4d4d] hover:bg-blue-700 hover:text-white stroke-[#4d4d4d] hover:stroke-white border-b-8',
+				'bg-white border border-[#4d4d4d] hover:border-blue-700 text-[#4d4d4d] hover:bg-blue-700 hover:text-white stroke-[#4d4d4d] hover:stroke-white border-b-4',
 			destructive: 'bg-destructive text-destructive-foreground hover:bg-destructive/90',
 			outline: 'border border-input bg-background hover:bg-accent hover:text-accent-foreground',
 			secondary: 'bg-secondary text-secondary-foreground hover:bg-secondary/80',
