@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button';
 	import * as Avatar from '$lib/components/ui/avatar';
+	import VerticalLogo from '$lib/components/VerticalLogo.svelte'
 	import krishna from '$lib/assets/avatar_krishna.png';
 </script>
 
@@ -182,7 +183,23 @@
 		<a class="flex items-center" href="/"
 			><Avatar.Root>
 				<Avatar.Image class="border-slate-950" src={krishna} alt="@shadcn" />
-			</Avatar.Root>Krishna Kiran</a
+			</Avatar.Root>Krishna Kiran <svg class="ml-4" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M1 1L5 5L9 1" stroke="#4D4D4D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+				</a
 		>
 	</div>
 </nav>
+
+<main class="flex">
+	<img alt="headshot of Krishna" class="size-24 rounded-full border border-4 border-gray-200" src="{krishna}"/>
+	<h1 class="font-bold text-[#4B5C6D] text-2xl">Krishna Kiran</h1>
+	<p class="#141618">Co-Founder and CEO at Duggup - Social network for people in tech. Ex-Amazon Head of Engineering. I write hot-takes on building a business, shipping delightful products and accelerating product and career growth.</p>
+	<Button variant="default"
+			>Follow</Button
+		>
+		<div>
+		<VerticalLogo></VerticalLogo>
+		<p class="text-xs text-[#7A9299] text-right">Co-founder and CEO</p>
+	</div>
+</main>
