@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button';
+	import * as Avatar from '$lib/components/ui/avatar';
+	import krishna from '$lib/assets/avatar_krishna.png';
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -9,7 +11,9 @@
 	rel="stylesheet"
 />
 
-<nav class="group group m-5 flex items-center justify-between font-inter text-[#4d4d4d]">
+<nav
+	class="py group group m-5 flex items-center justify-between border-b-2 border-dotted pb-2 font-inter text-[#4d4d4d]"
+>
 	<a href="/"
 		><svg
 			width="108"
@@ -175,6 +179,10 @@
 			</svg>
 			Post</Button
 		>
-		<a href="/">Krishna Kiran</a>
+		<a class="flex items-center" href="/"
+			><Avatar.Root>
+				<Avatar.Image class="border-slate-950" src={krishna} alt="@shadcn" />
+			</Avatar.Root>Krishna Kiran</a
+		>
 	</div>
 </nav>
