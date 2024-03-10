@@ -1,7 +1,9 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button';
 	import * as Avatar from '$lib/components/ui/avatar';
+
 	import VerticalLogo from '$lib/components/VerticalLogo.svelte';
+	import Timeline from '$lib/components/Timeline/Timeline.svelte';
 	import krishna from '$lib/assets/avatar_krishna.png';
 </script>
 
@@ -204,58 +206,33 @@
 	</div>
 </nav>
 
-<main class="flex">
+<main class="flex justify-center text-pretty py-12 font-inter">
 	<div>
 		<img
 			alt="headshot of Krishna"
 			class="size-24 rounded-full border border-4 border-gray-200"
 			src={krishna}
 		/>
-		<h1 class="text-2xl font-bold text-[#4B5C6D]">Krishna Kiran</h1>
+		<h1 class="text-center text-2xl font-bold text-[#4B5C6D]">Krishna<br />Kiran</h1>
 	</div>
 
-	<div>
+	<div class="mx-24 max-w-xl py-4">
 		<p class="#141618">
 			Co-Founder and CEO at Duggup - Social network for people in tech. Ex-Amazon Head of
 			Engineering. I write hot-takes on building a business, shipping delightful products and
 			accelerating product and career growth.
 		</p>
-		<Button variant="default">Follow</Button>
+		<Button variant="default" class="mt-5">Follow</Button>
 	</div>
 
-	<div>
+	<div class="py-4">
 		<VerticalLogo></VerticalLogo>
 		<p class="text-right text-xs text-[#7A9299]">Co-founder and CEO</p>
-		<p>
-			My website
-			<svg
-				width="16"
-				height="16"
-				viewBox="0 0 16 16"
-				fill="none"
-				xmlns="http://www.w3.org/2000/svg"
-			>
-				<path
-					d="M7.20156 1.59961H4.00156C2.67608 1.59961 1.60156 2.67413 1.60156 3.99961V11.9997C1.60156 13.3252 2.67608 14.3997 4.00156 14.3997H12.0016C13.327 14.3997 14.4016 13.3252 14.4016 11.9997V8.79961M10.4012 1.5998L14.4016 1.59961M14.4016 1.59961V5.19971M14.4016 1.59961L7.60098 8.39942"
-					stroke="#4D4D4D"
-					stroke-width="1.5"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-				/>
-			</svg>
-			<svg
-				width="28"
-				height="28"
-				viewBox="0 0 28 28"
-				fill="none"
-				xmlns="http://www.w3.org/2000/svg"
-			>
-				<path
-					d="M6.90078 13.9992C6.90078 14.7172 6.31875 15.2992 5.60078 15.2992C4.88281 15.2992 4.30078 14.7172 4.30078 13.9992C4.30078 13.2812 4.88281 12.6992 5.60078 12.6992C6.31875 12.6992 6.90078 13.2812 6.90078 13.9992ZM15.3008 13.9992C15.3008 14.7172 14.7188 15.2992 14.0008 15.2992C13.2828 15.2992 12.7008 14.7172 12.7008 13.9992C12.7008 13.2812 13.2828 12.6992 14.0008 12.6992C14.7188 12.6992 15.3008 13.2812 15.3008 13.9992ZM23.7008 13.9992C23.7008 14.7172 23.1188 15.2992 22.4008 15.2992C21.6828 15.2992 21.1008 14.7172 21.1008 13.9992C21.1008 13.2812 21.6828 12.6992 22.4008 12.6992C23.1188 12.6992 23.7008 13.2812 23.7008 13.9992Z"
-					stroke="#A5B9D3"
-					stroke-width="3"
-				/>
-			</svg>
-		</p>
+
+		<div>
+			<p class="mt-5 text-right">My website</p>
+		</div>
 	</div>
 </main>
+
+<Timeline></Timeline>
