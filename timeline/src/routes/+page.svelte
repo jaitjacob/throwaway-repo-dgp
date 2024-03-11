@@ -1,10 +1,9 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button';
 	import * as Avatar from '$lib/components/ui/avatar';
-
 	import VerticalLogo from '$lib/components/VerticalLogo.svelte';
-	import Timeline from '$lib/components/Timeline/Timeline.svelte';
 	import krishna from '$lib/assets/avatar_krishna.png';
+	import DynamicTimeline from '$lib/components/DynamicTimeline/DynamicTimeline.svelte';
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -226,7 +225,7 @@
 	</div>
 
 	<div class="py-4">
-		<VerticalLogo></VerticalLogo>
+		<VerticalLogo companyName={'Duggup'}></VerticalLogo>
 		<p class="text-right text-xs text-[#7A9299]">Co-founder and CEO</p>
 
 		<div>
@@ -235,4 +234,4 @@
 	</div>
 </main>
 
-<Timeline></Timeline>
+<DynamicTimeline></DynamicTimeline>
