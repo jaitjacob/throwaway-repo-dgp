@@ -3,7 +3,6 @@
 	import * as Card from '$lib/components/ui/card';
 	import VerticalLogo from '$lib/components/VerticalLogo.svelte';
 	import TimelineStory from './TimelineStory.svelte';
-	import data from '$lib/components/Timeline/TimelineData';
 </script>
 
 <div id="timeline-container " class="m-auto mt-5">
@@ -166,7 +165,6 @@
 			</div>
 		</div>
 		<!-- END: Timeline Status -->
-		<TimelineStory></TimelineStory>
 	</div>
 </div>
 <!-- END timeline-container -->

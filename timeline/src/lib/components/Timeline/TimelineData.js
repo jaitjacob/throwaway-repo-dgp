@@ -21,10 +21,11 @@ export const data = {
 			type: 'status',
 			jobStatus: {
 				position: 'Co-founder and CEO',
-				jobType: 'Full-time &#183; Remote',
-				company: 'Duggup',
+				jobType: 'Full-time • Remote',
+				companyName: 'Duggup',
+				companyLogo: './timeline/duggup.svg',
 				location: 'San Francisco Bay Area',
-				startDate: 'Nov 22'
+				startDate: 'Nov 2023'
 			}
 		},
 		{
@@ -47,10 +48,11 @@ export const data = {
 			type: 'status',
 			jobStatus: {
 				position: 'VP Engineering',
-				jobType: 'Full-time &#183; Remote',
-				company: 'BetterUp',
+				jobType: 'Full-time',
+				companyName: 'BetterUp',
+				companyLogo: './timeline/betterup.svg',
 				location: 'San Francisco Bay Area',
-				startDate: 'Nov 22'
+				startDate: 'Sep 2022'
 			}
 		}
 	]
