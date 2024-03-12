@@ -231,8 +231,10 @@
 			<div>
 				<p class="mt-5">My website</p>
 			</div>
-			<div class="mt-6 pl-2 text-right"><img src="./open-tab.svg" /></div>
-			<div class="mt-6 pl-2 text-right"><img src="./elipsis.svg" /></div>
+			<div class="mt-6 pl-2 text-right">
+				<img src="./open-tab.svg" alt="open link in new tab icon" />
+			</div>
+			<div class="mt-6 pl-2 text-right"><img src="./elipsis.svg" alt="elipsis icon" /></div>
 		</div>
 	</div>
 </main>

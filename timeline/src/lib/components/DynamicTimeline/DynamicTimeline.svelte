@@ -2,7 +2,6 @@
 	import { data } from '../Timeline/TimelineData';
 	import TimelineStatus from '../Timeline/TimelineStatus.svelte';
 	import TimelineStory from '../Timeline/TimelineStory.svelte';
-	console.log(data.timeline);
 </script>
 
 <div class="mt-5">
