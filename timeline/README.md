@@ -1,38 +1,39 @@
-# create-svelte
+# Hi :)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## [🔗Visit hosted version here](https://duggup-frontend-submission-by-jait.vercel.app/)
 
-## Creating a project
+This is my submission for Duggup's Frontend Engineer Role. For this short assignment my primary focus was to,
 
-If you're seeing this, you've probably already done this step. Congrats!
+1. Develop pixel perfect page using SvelteKit & Shadcn
+2. Write styles using Tailwind CSS.
+3. Deploy it on Vercel.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Approach
+From the Figma designs provided I derived 3 main parts that needed to be tackled. This was also the order in which I coded the page.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+1. Navbar with Logo, 3 nav elements, 1 button w/ hover state & an Avatar with Label.
+2. Hero Section w/ Profile picture, a blurb and other info.
+3. Timeline with two types of sections: Timeline Story & Timeline Status
+   - Initially I created a Timeline component with hardcoded data.
+   - The reusable markup and styles were factored out into DynamicTimeline which imports a JSON data object and creates the timeline dynamically as per assignment requirement.
+   - I've left out 'Timeline' as a zombie component for inspection. It however does not get used anywhere in the production code.
 
-## Developing
+To run this repo locally,
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+1. Clone the repository,
+   `git clone https://github.com/jaitjacob/throwaway-repo-dgp.git`
 
-```bash
-npm run dev
+2. `cd` into the `timeline` directory where the `package.json` lives,
+   cd timeline
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+3. Install all the dependencies,
+   `npm install`
 
-## Building
+4. `npm run dev`
 
-To create a production version of your app:
+5. Visit `localhost:5173` on your browser.
 
-```bash
-npm run build
-```
+Few things I might get around to after submission,
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+1. Mobile responsiveness
+2. Add a smoke test, and few UI tests using Playwright
