@@ -227,9 +227,12 @@
 	<div class="py-4">
 		<VerticalLogo companyName={'Duggup'}></VerticalLogo>
 		<p class="text-right text-xs text-[#7A9299]">Co-founder and CEO</p>
-
-		<div>
-			<p class="mt-5 text-right">My website</p>
+		<div class="flex">
+			<div>
+				<p class="mt-5">My website</p>
+			</div>
+			<div class="mt-6 pl-2 text-right"><img src="./open-tab.svg" /></div>
+			<div class="mt-6 pl-2 text-right"><img src="./elipsis.svg" /></div>
 		</div>
 	</div>
 </main>
