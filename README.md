@@ -8,7 +8,7 @@ This is my submission for Duggup's Frontend Engineer Role. For this short assign
 2. Write styles using Tailwind CSS.
 3. Deploy it on Vercel.
 
-Approach
+# Approach
 From the Figma designs provided I derived 3 main parts that needed to be tackled. This was also the order in which I coded the page.
 
 1. Navbar with Logo, 3 nav elements, 1 button w/ hover state & an Avatar with Label.
@@ -18,7 +18,7 @@ From the Figma designs provided I derived 3 main parts that needed to be tackled
    - The reusable markup and styles were factored out into DynamicTimeline which imports a JSON data object and creates the timeline dynamically as per assignment requirement.
    - I've left out 'Timeline' as a zombie component for inspection. It however does not get used anywhere in the production code.
 
-To run this repo locally,
+# To run this repo locally,
 
 1. Clone the repository,
    `git clone https://github.com/jaitjacob/throwaway-repo-dgp.git`
