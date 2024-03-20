@@ -1,12 +1,10 @@
 # Hi :)
 
-## [🔗Visit hosted version here](https://duggup-frontend-submission-by-jait.vercel.app/)
-
-This is my submission for Duggup's Frontend Engineer Role. For this short assignment my primary focus was to,
+This was my submission for Duggup's Frontend Engineer Role. For this short assignment my primary focus was to,
 
 1. Develop pixel perfect page using SvelteKit & Shadcn
 2. Write styles using Tailwind CSS.
-3. Deploy it on Vercel.
+3. Deploy it on Vercel. [No longer hosted, Please run locally.]
 
 # Approach
 From the Figma designs provided I derived 3 main parts that needed to be tackled. This was also the order in which I coded the page.
